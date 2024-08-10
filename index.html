@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Alarm Clock</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      
+      <div id="appBody">
+         
+         <h2>Alarm Clock</h2>
+         
+         <div id="watchContainer">
+            <p id="watch">00:00:00</p>
+         </div>
+         
+         <div id="ringTones">
+            <p>Select Ringtone</p>
+            <select>
+               <option value="./ringtones/ringtone1.mp3">Ringtone-1</option>
+               <option value="./ringtones/ringtone2.mp3">Ringtone-2</option>
+               <option value="./ringtones/ringtone3.mp3">Ringtone-3</option>
+            </select>
+         </div>
+         
+         <div id="setAlarmContainer">
+            <p id="emptyText">Empty</p>
+         </div>
+         
+         <button id="addAlarmBtn">+ Add Alarm</button>
+         
+         <div id="popupContainer"></div>
+         
+         <div id="popupBg">
+            <select id="hours"></select>
+            <select id="minutes"></select>
+            <select id="ampm">
+               <option value="AM">AM</option>
+               <option value="PM">PM</option>
+            </select>
+            <button id="setAlarmBtn">Set Alarm</button>
+         </div> 
+         
+      </div>
+      
+   </div>
+   <script SRC="script.js"></script>
+</body>
+</html>
